@@ -1,0 +1,87 @@
+.multi-step-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  label {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  input[type='text'],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.form-summary {
+  margin-top: 20px;
+}
+
+.date-input {
+  position: relative;
+}
+
+.date-input input[type='text'] {
+  cursor: pointer;
+}
+
+.date-picker {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date-picker ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.date-picker li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.date-picker li:hover {
+  background-color: #f1f1f1;
+}
+
+.date-picker li.selected {
+  font-weight: bold;
+}
