@@ -2,6 +2,8 @@
 
 Este é um projeto para um teste para empresa XLR8, desenvolvido com React e TypeScript. O formulário permite ao usuário adicionar várias linhas com informações, como data de início, data de término, tipo de valor e valor.
 
+https://react-nx-xrl8-test.vercel.app/
+
 ## Requisitos
 
 Certifique-se de ter o seguinte software instalado em seu ambiente de desenvolvimento:
